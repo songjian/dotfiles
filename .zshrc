@@ -103,3 +103,5 @@ alias -s html=vi
 alias -s rb=vi
 alias -s c=vi
 alias -s java=vi
+
+alias open="explorer.exe"
