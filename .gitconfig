@@ -3,3 +3,4 @@
 	name = 宋健
 [core]
 	quotepath = false
+	editor = vim
