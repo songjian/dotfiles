@@ -15,3 +15,13 @@ Plug 'git@github.com:garbas/vim-snipmate'
 call plug#end()
 
 let g:snipMate = { 'snippet_version' : 1 }
+
+set tabstop=4
+
+set softtabstop=4
+
+set shiftwidth=4
+
+set expandtab
+
+set autoindent
