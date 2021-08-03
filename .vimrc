@@ -25,3 +25,6 @@ set shiftwidth=4
 set expandtab
 
 set autoindent
+
+nnoremap <F5> :! ctags -R<CR>
+nnoremap <F6> :! ./gendoc.sh<CR>
