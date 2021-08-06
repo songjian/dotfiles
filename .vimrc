@@ -28,3 +28,6 @@ set autoindent
 
 nnoremap <F5> :! ctags -R<CR>
 nnoremap <F6> :! ./gendoc.sh<CR>
+
+map <F2> :NERDTreeToggle<CR>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
