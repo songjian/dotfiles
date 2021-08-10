@@ -1,5 +1,3 @@
-set nu
-
 let g:snipMate = { 'snippet_version' : 1 }
 
 set tabstop=4
