@@ -1,7 +1,7 @@
 set nu
 
 call plug#begin('~/.vim/plugged')
-Plug 'junegunn/vim-easy-align'
+Plug 'git@github.com:junegunn/vim-easy-align'
 Plug 'git@github.com:shawncplus/phpcomplete.vim'
 Plug 'git@github.com:scrooloose/nerdtree'
 Plug 'git@github.com:kien/ctrlp.vim'
