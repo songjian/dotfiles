@@ -17,3 +17,4 @@ symbolic .viminfo
 symbolic .vimrc
 symbolic .zlogin
 symbolic .zshrc
+symbolic .aliases
