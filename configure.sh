@@ -1,11 +1,11 @@
 #!/bin/bash
 
-readonly BACKUP_DIR="${HOME}/configbackup/"
+readonly BACKUP_DIR="${HOME}/configbackup"
 
 mkdir -p "${BACKUP_DIR}"
 
 function symbolic {
-    #rsync -av "${HOME}/$1" "${BACKUP_DIR}"
+    rsync -av --delete "${HOME}/$1" "${BACKUP_DIR}"
     ln -sf "${HOME}/MyConf/$1" "${HOME}/$1"
 }
 
@@ -18,3 +18,7 @@ symbolic .vimrc
 symbolic .zlogin
 symbolic .zshrc
 symbolic .aliases
+symbolic .ssh/config
+symbolic .config/composer
+symbolic .config/fish
+symbolic .config/omf
