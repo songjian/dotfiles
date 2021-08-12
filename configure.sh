@@ -1,12 +1,13 @@
 #!/bin/bash
 
 readonly BACKUP_DIR="${HOME}/configbackup"
+readonly MYCONF_DIR="${HOME}/MyConf"
 
 mkdir -p "${BACKUP_DIR}"
 
 function symbolic {
-    rsync -av --delete "${HOME}/$1" "${BACKUP_DIR}"
-    ln -sf "${HOME}/MyConf/$1" "${HOME}/$1"
+    rsync -avb --remove-source-files "${HOME}/$1" "${BACKUP_DIR}/"
+    ln -sf "${MYCONF_DIR}/$1" "${HOME}/$1"
 }
 
 symbolic .profile
