@@ -1,7 +1,7 @@
 #!/bin/bash
 
 readonly BACKUP_DIR="${HOME}/configbackup"
-readonly MYCONF_DIR="${HOME}/MyConf"
+readonly MYCONF_DIR="${HOME}/Dotfiles"
 
 mkdir -p "${BACKUP_DIR}"
 
