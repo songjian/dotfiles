@@ -24,3 +24,4 @@ symbolic .config/composer
 symbolic .config/fish
 symbolic .config/omf
 symbolic .rvm/user/db
+symbolic .hushlogin
