@@ -25,3 +25,4 @@ symbolic .config/fish
 symbolic .config/omf
 symbolic .rvm/user/db
 symbolic .hushlogin
+symbolic .sudo_as_admin_successful
