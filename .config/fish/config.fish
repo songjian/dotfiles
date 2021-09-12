@@ -25,3 +25,5 @@ end
 function jkx
     open https://xueqiu.com/u/6784593966
 end
+
+set -x PATH $PATH "~/.phpenv/bin"
