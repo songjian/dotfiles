@@ -114,3 +114,4 @@ export NVM_DIR="$HOME/.nvm"
 if [ -f ~/.aliases ]; then
     . ~/.aliases
 fi
+eval "$(pyenv init -)"
