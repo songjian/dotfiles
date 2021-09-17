@@ -26,6 +26,10 @@ function jkx
     open https://xueqiu.com/u/6784593966
 end
 
+function minsu
+    cd ~/workspace_php/minsu-backend
+end
+
 set -x PATH $PATH "~/.phpenv/bin"
 
 set -Ux PYENV_ROOT $HOME/.pyenv
