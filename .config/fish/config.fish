@@ -30,6 +30,14 @@ function minsu
     cd ~/workspace_php/minsu-backend
 end
 
+function learn
+    cd ~/learning
+end
+
+function note
+    cd ~/notebook && vim .
+end
+
 set -x PATH $PATH "~/.phpenv/bin"
 
 set -Ux PYENV_ROOT $HOME/.pyenv
