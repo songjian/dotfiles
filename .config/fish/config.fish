@@ -38,6 +38,10 @@ function note
     cd ~/notebook && vim .
 end
 
+function weekly
+    cd ~/good-resources/weekly
+end
+
 set -x PATH $PATH "~/.phpenv/bin"
 
 set -Ux PYENV_ROOT $HOME/.pyenv
