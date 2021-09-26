@@ -18,11 +18,8 @@ function ryf
     open http://www.ruanyifeng.com/home.html
 end
 
-function jkz
+function jk
     open https://www.zhihu.com/people/shengjingjianke
-end
-
-function jkx
     open https://xueqiu.com/u/6784593966
 end
 
@@ -42,6 +39,7 @@ function weekly
     cd ~/good-resources/weekly
 end
 
+set -x PATH $PATH "$HOME/.rvm/bin"
 set -x PATH $PATH "~/.phpenv/bin"
 
 set -Ux PYENV_ROOT $HOME/.pyenv
