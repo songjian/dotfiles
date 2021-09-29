@@ -21,7 +21,7 @@ end
 function jk
     open https://www.zhihu.com/people/shengjingjianke
     open https://xueqiu.com/u/6784593966
-    oepn https://xueqiu.com/6784593966/column
+    open https://xueqiu.com/6784593966/column
 end
 
 function minsu
