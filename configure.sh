@@ -27,3 +27,4 @@ symbolic .rvm/user/db
 symbolic .hushlogin
 symbolic .sudo_as_admin_successful
 symbolic .npmrc
+symbolic .config/pip
