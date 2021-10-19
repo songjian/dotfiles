@@ -33,7 +33,7 @@ function learn
 end
 
 function note
-    cd ~/notebook && vim .
+    cd ~/notebook && vim notes
 end
 
 function weekly
