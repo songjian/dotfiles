@@ -36,6 +36,12 @@ function note
     cd ~/notebook && vim notes
 end
 
+function blog
+    cd ~/MyBlog
+    docker-compose up -d
+    open http://localhost:4000
+end
+
 function weekly
     cd ~/good-resources/weekly
 end
