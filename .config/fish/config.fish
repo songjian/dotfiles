@@ -38,13 +38,24 @@ end
 
 function blog
     cd ~/MyBlog
-    docker-compose up -d
+    . dev.sh
     open http://localhost:4000
+end
+
+function gitbookrun
+    nvm install 10.21.0 && nvm use 10.21.0 && gitbook serve --port 4001
 end
 
 function weekly
     cd ~/good-resources/weekly
 end
+
+function kanban
+    cd ~/try/taiga-docker
+    ./launch-all.sh
+    open http://localhost:9000
+end
+
 
 set -x PATH $PATH "$HOME/.rvm/bin"
 set -x PATH $PATH "~/.phpenv/bin"
