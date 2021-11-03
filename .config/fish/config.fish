@@ -33,7 +33,8 @@ function learn
 end
 
 function note
-    cd ~/notebook && vim notes
+    cd ~/notebook
+    open README.md
 end
 
 function blog
@@ -54,6 +55,10 @@ function kanban
     cd ~/try/taiga-docker
     ./launch-all.sh
     open http://localhost:9000
+end
+
+function host-ip
+    ipconfig.exe | grep IPv4 | grep 192 | awk '{print $NF}'
 end
 
 
