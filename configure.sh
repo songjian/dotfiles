@@ -19,7 +19,6 @@ symbolic .vimrc
 symbolic .zlogin
 symbolic .zshrc
 symbolic .aliases
-symbolic .ssh/config
 symbolic .config/composer
 symbolic .config/fish
 symbolic .config/omf
