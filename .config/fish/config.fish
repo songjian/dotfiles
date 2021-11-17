@@ -64,6 +64,7 @@ end
 
 set -x PATH $PATH "$HOME/.rvm/bin"
 set -x PATH $PATH "~/.phpenv/bin"
+set -x PATH $PATH "/usr/local/go/bin"
 
 status is-login; and pyenv init --path | source
 status is-interactive; and pyenv init - | source

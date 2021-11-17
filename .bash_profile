@@ -4,3 +4,4 @@
 #[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 export PATH="$HOME/.phpenv/bin:$PATH"
 eval "$(phpenv init -)"
+eval "$(pyenv virtualenv-init -)"
