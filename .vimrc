@@ -28,7 +28,7 @@ set autoindent
 
 set syntax=on
 
-set mouse=a
+"set mouse=a
 
 nnoremap <F5> :! ctags -R<CR>
 nnoremap <F6> :! ./gendoc.sh<CR>
