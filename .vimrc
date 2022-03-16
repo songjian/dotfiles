@@ -34,6 +34,6 @@ nnoremap <F5> :! ctags -R<CR>
 nnoremap <F6> :! ./gendoc.sh<CR>
 
 nnoremap <F7> :! ssh -p 37565 root@18rich.net deploy-scripts/18rich.net/deploy.sh<CR>
-nnoremap <F8> :! ssh -p 37565 root@18rich.net deploy-scripts/18rich.net/deploy-with-db.sh<CR>
+nnoremap <F8> :! ./money_supply.py sj 202201<CR>
 
 map <F2> :NERDTreeToggle<CR>
