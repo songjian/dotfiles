@@ -12,6 +12,11 @@ Plug 'git@github.com:scrooloose/nerdcommenter'
 Plug 'git@github.com:MarcWeber/vim-addon-mw-utils'
 Plug 'git@github.com:tomtom/tlib_vim'
 Plug 'git@github.com:garbas/vim-snipmate'
+if has('nvim') || has('patch-8.0.902')
+    Plug 'mhinz/vim-signify'
+else
+    Plug 'mhinz/vim-signify', { 'branch': 'legacy' }
+endif
 call plug#end()
 
 let g:snipMate = { 'snippet_version' : 1 }
