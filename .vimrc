@@ -22,18 +22,14 @@ call plug#end()
 let g:snipMate = { 'snippet_version' : 1 }
 
 set tabstop=4
-
 set softtabstop=4
-
 set shiftwidth=4
-
 set expandtab
-
 set autoindent
-
 set syntax=on
-
 "set mouse=a
+set autochdir
+set autoread
 
 nnoremap <F5> :! ctags -R<CR>
 nnoremap <F6> :! ./gendoc.sh<CR>
