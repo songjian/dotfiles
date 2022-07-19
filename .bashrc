@@ -128,3 +128,5 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 eval "$(pyenv init -)"
 export LD_LIBRARY_PATH=/home/sj/usr/talib/lib:$LD_LIBRARY_PATH
+
+alias cpghtoken='cat ~/notebook/notes/gh_token | clip.exe'
