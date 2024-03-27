@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/home/sj/.vim/autoload'
+let g:netrw_dirhist_1='/home/sj/.vim/autoload/plug.vim'
+let g:netrw_dirhist_0='/home/sj/.vim/autoload'
+let g:netrw_dirhist_9='/home/sj/.vim/autoload/plug.vim'
+let g:netrw_dirhist_8='/home/sj/.vim/autoload'
+let g:netrw_dirhist_7='/home/sj'
+let g:netrw_dirhist_6='/var/lib/docker'
+let g:netrw_dirhist_5='/home/sj/code/python/telegram-registrar/tests'
+let g:netrw_dirhist_4='/home/sj/code/python/telegram-registrar'
+let g:netrw_dirhist_3='/home/sj'
