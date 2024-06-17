@@ -27,7 +27,5 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-PATH="$HOME/.local/share/gem/ruby/3.0.0/bin:$PATH"
-
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/go
