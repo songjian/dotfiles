@@ -28,4 +28,3 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 export PATH=$PATH:/usr/local/go/bin
-export GOPATH=$HOME/go
